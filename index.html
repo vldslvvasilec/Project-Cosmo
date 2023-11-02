@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./css/index.min.css" />
         <title>ODYSSEY</title>
-        <script src="./js/header-dropdown.js"></script>
     </head>
     <body>
         <div id="root">
@@ -17,23 +16,23 @@
                         width="" />
                 </section>
                 <section class="Header-Menu">
-                    <ul class="Menu" id="Menu">
+                    <section class="Header-Menu-Logo" id="btn">
+                        <img
+                            src="./assets/icons/widgets.svg"
+                            alt="widgets"
+                            id="arrow" />
+                    </section>
+                    <ul class="Menu" id="dropdown">
                         <li><a href="#Cosmonavt">Stay Connected</a></li>
                         <li><a href="#Committed">Education</a></li>
                         <li><a href="#Community">Community</a></li>
                         <li><a href="#Astronomy">About Us</a></li>
-                        <li class="Header-Menu-Sing">
+                        <li class="Header-Menu-Sing" id="button-sing">
                             <a href="#">Sign in</a>
                         </li>
                     </ul>
                 </section>
-                <section
-                    onclick="myFunction()"
-                    class="Header-Menu-Logo"
-                    id="btn">
-                    <img src="./assets/icons/widgets.svg" alt="widgets" />
-                </section>
-                <section class="Window-Sing">
+                <section class="Window-Sing" id="window-sing">
                     <h3>Enter your login and password:</h3>
                     <form>
                         <input
@@ -301,5 +300,7 @@
                 </section>
             </footer>
         </div>
+        <script src="./js/header-dropdown.js"></script>
+        <script src="./js/sing-modalka.js"></script>
     </body>
 </html>

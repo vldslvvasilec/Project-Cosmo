@@ -1,10 +1,8 @@
-const dropdawnBtn = document.getElementById("btn");
-const dropdawnMenu = document.getElementById("dropdown");
-const toggleArrow = document.getElementById("arrow");
+const singBtn = document.getElementById("button-sing");
+const dropdawnMenu = document.getElementById("window-sing");
 
 const toggleDropdown = function () {
     dropdawnMenu.classList.toggle("show");
-    toggleArrow.classList.toggle("arrow");
 };
 
 dropdawnBtn.addEventListener("click", function (e) {
