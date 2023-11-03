@@ -19,6 +19,7 @@
     box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.596);
     opacity: 0;
     visibility: hidden;
+    z-index: 99
 
     h3 {
         font-size: 2.5vw;
@@ -67,7 +68,7 @@
 
 .show1 {
     visibility: visible;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 @media (max-width: 1000px) {
