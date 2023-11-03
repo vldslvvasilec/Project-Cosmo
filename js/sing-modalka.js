@@ -6,8 +6,8 @@ const toggleSing = function () {
     singMenu.classList.toggle("show1");
 };
 
-singBtn.addEventListener("click", function (e) {
-    e.stopPropagation();
+singBtn.addEventListener("click", function (e1) {
+    e1.stopPropagation();
     toggleSing();
 });
 
