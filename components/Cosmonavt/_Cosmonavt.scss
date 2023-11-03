@@ -1,0 +1,163 @@
+.Cosmonavt {
+    font-family: var(--main-fam-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Cosmonavt-bg {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background: url(../assets/images/Rectangle3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    color: var(--main-col-white);
+    padding: 2%;
+
+    p {
+        width: 35%;
+        font-size: 4vw;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+
+.Cosmonavt-content {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.Cosmonavt-cont {
+    width: 35vw;
+    box-shadow: 0px 20px 39px -12px rgba(99, 117, 124, 0.2);
+    padding: 1%;
+
+    p {
+        padding: 2%;
+        color: #171e27;
+        font-family: var(--main-fam-text);
+        font-size: 1.35vw;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 2vh;
+
+        li {
+            font-size: 1.5vw;
+            transition: 0.5s;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+
+            a {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: inherit;
+                align-items: inherit;
+                color: inherit;
+                border-radius: inherit;
+            }
+
+            &:first-child {
+                width: 13vw;
+                height: 10vh;
+                display: flex;
+                justify-content: center;
+                align-items: inherit;
+                background-color: var(--main-bg-black);
+                border-radius: 1vw;
+                color: var(--main-col-sing);
+                margin-right: 7%;
+            }
+
+            &:last-child {
+                width: 4vw;
+                height: 4vw;
+                margin-left: 7%;
+                background-color: black;
+                background: url(../assets/icons/Group1.svg);
+                background-size: 120%;
+                background-repeat: no-repeat;
+                background-position: center;
+                border-radius: 1vw;
+            }
+        }
+    }
+}
+
+.cosmoboy {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: -60vh;
+
+    img {
+        width: 120%;
+    }
+}
+
+.cosmoboy-text {
+    width: 60%;
+    background-color: var(--main-bg-black);
+    border-radius: 1vw;
+    color: var(--main-col-white);
+    font-size: var(--main-fam-text);
+    padding: 2%;
+    margin-top: -10%;
+    box-shadow: 0px 20px 39px -12px rgba(99, 117, 124, 0.2);
+
+    section {
+        &:first-child {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 1.5vw;
+
+            span {
+                width: 2.8vw;
+                height: 2.8vw;
+                background-color: var(--main-bg-items);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20%;
+                padding: auto;
+                margin-right: 3%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    margin-top: 10%;
+                }
+
+                p {
+                    text-align: center;
+                    font-size: 2em;
+                    text-align: right;
+                }
+            }
+        }
+
+        &:last-child {
+            display: flex;
+            justify-content: flex-end;
+            font-size: 1.8vw;
+            letter-spacing: 0.2vw;
+        }
+    }
+}

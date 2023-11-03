@@ -43,7 +43,7 @@ a {
 
 .Window-Sing {
   width: 40%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -68,7 +68,7 @@ a {
   color: var(--hed-col-text);
   -webkit-box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.596);
           box-shadow: 0 0 10px 10px rgba(128, 128, 128, 0.596);
-  opacity: 0.9;
+  opacity: 0;
   visibility: hidden;
 }
 .Window-Sing h3 {
@@ -113,6 +113,11 @@ a {
 .Window-Sing form input:last-child:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.show1 {
+  visibility: visible;
+  opacity: 0.9;
 }
 
 @media (max-width: 1000px) {
